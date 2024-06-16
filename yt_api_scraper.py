@@ -2,7 +2,7 @@ import pandas as pd
 from googleapiclient.discovery import build
 from utils.comments import process_comments, make_csv
 
-API_KEY = "AIzaSyDSLbJActSbVC0x97sbo_dpxfkP7dYCqB0"
+API_KEY = ""
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
 def video_threads(videoIDs):
